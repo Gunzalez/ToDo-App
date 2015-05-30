@@ -13,6 +13,7 @@
 		6F01D7981AD96E520036AC80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F01D7971AD96E520036AC80 /* Images.xcassets */; };
 		6F01D79B1AD96E520036AC80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F01D7991AD96E520036AC80 /* LaunchScreen.xib */; };
 		6F01D7A71AD96E520036AC80 /* ToDo_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F01D7A61AD96E520036AC80 /* ToDo_SwiftTests.swift */; };
+		6F01D7B31AD9D3B40036AC80 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F01D7B21AD9D3B40036AC80 /* AddToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6F01D7A01AD96E520036AC80 /* ToDo SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDo SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F01D7A51AD96E520036AC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F01D7A61AD96E520036AC80 /* ToDo_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_SwiftTests.swift; sourceTree = "<group>"; };
+		6F01D7B21AD9D3B40036AC80 /* AddToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddToDoViewController.swift; path = ../AddToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		6F01D78D1AD96E520036AC80 /* ToDo Swift */ = {
 			isa = PBXGroup;
 			children = (
+				6F01D7B21AD9D3B40036AC80 /* AddToDoViewController.swift */,
 				6F01D7901AD96E520036AC80 /* AppDelegate.swift */,
 				6F01D7921AD96E520036AC80 /* ViewController.swift */,
 				6F01D7941AD96E520036AC80 /* Main.storyboard */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F01D7931AD96E520036AC80 /* ViewController.swift in Sources */,
+				6F01D7B31AD9D3B40036AC80 /* AddToDoViewController.swift in Sources */,
 				6F01D7911AD96E520036AC80 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
